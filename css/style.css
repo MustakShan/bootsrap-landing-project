@@ -1,0 +1,58 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+nav {
+    border-bottom: 2px solid #0d6efd;
+}
+
+#header-intro {
+    background: url(../img/img-0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    position: relative;
+}
+
+.header-inner {
+    padding-top: 150px;
+}
+
+.overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.card {
+    opacity: 0.8;
+}
+
+#explore-section, #create-section {
+    background: #fff;
+}
+
+#about-us {
+    background: url(../img/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+}
+
+.overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
